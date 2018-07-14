@@ -4,6 +4,7 @@ import Layout from '@/components/Layout'
 import Home from '@/components/Home'
 import MixinDemo from '@/components/MixinDemo'
 import ComponentDemo from '@/components/ComponentDemo'
+import AxiosDemo from '@/components/AxiosDemo'
 
 Vue.use(Router)
 
@@ -26,6 +27,11 @@ export default new Router({
         path: 'component',
         name: 'ComponentDemo',
         component: ComponentDemo
+      },
+      {
+        path: 'axios',
+        name: 'AxiosDemo',
+        component: AxiosDemo
       },
     ]
   }, ]

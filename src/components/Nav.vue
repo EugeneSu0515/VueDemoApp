@@ -15,9 +15,8 @@
         <b-navbar-nav>
           <b-nav-item-dropdown text="Vue套件範例"
                                right>
-            <!-- <b-dropdown-item href="#">axios</b-dropdown-item> -->
-            <!-- <router-link :to="{ path: '/axios' }"
-                         class="dropdown-item">axios</router-link> -->
+            <router-link :to="{ path: '/axios' }"
+                         class="dropdown-item">axios</router-link>
           </b-nav-item-dropdown>
         </b-navbar-nav>
         <b-navbar-nav>
