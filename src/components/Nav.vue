@@ -20,6 +20,13 @@
                          class="dropdown-item">axios</router-link> -->
           </b-nav-item-dropdown>
         </b-navbar-nav>
+        <b-navbar-nav>
+          <b-nav-item-dropdown text="Vue範例"
+                               right>
+            <router-link :to="{ path: '/mixin' }"
+                         class="dropdown-item">Mixin</router-link>
+          </b-nav-item-dropdown>
+        </b-navbar-nav>
       </b-collapse>
     </b-navbar>
   </div>
