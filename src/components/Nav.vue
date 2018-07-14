@@ -25,6 +25,8 @@
                                right>
             <router-link :to="{ path: '/mixin' }"
                          class="dropdown-item">Mixin</router-link>
+            <router-link :to="{ path: '/component' }"
+                         class="dropdown-item">Component</router-link>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>

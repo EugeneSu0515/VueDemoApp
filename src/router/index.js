@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Layout from '@/components/Layout'
 import Home from '@/components/Home'
 import MixinDemo from '@/components/MixinDemo'
+import ComponentDemo from '@/components/ComponentDemo'
 
 Vue.use(Router)
 
@@ -20,6 +21,11 @@ export default new Router({
         path: 'mixin',
         name: 'MixinDemo',
         component: MixinDemo
+      },
+      {
+        path: 'component',
+        name: 'ComponentDemo',
+        component: ComponentDemo
       },
     ]
   }, ]
