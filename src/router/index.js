@@ -5,6 +5,7 @@ import Home from '@/components/Home'
 import MixinDemo from '@/components/MixinDemo'
 import ComponentDemo from '@/components/ComponentDemo'
 import AxiosDemo from '@/components/AxiosDemo'
+import Validation from '@/components/Validation'
 
 Vue.use(Router)
 
@@ -32,6 +33,11 @@ export default new Router({
         path: 'axios',
         name: 'AxiosDemo',
         component: AxiosDemo
+      },
+      {
+        path: 'validation',
+        name: 'ValidationDemo',
+        component: Validation
       },
     ]
   }, ]

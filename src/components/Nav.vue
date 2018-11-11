@@ -17,6 +17,8 @@
                                right>
             <router-link :to="{ path: '/axios' }"
                          class="dropdown-item">axios</router-link>
+            <router-link :to="{ path: '/validation' }"
+                         class="dropdown-item">vee-validate</router-link>
           </b-nav-item-dropdown>
         </b-navbar-nav>
         <b-navbar-nav>
